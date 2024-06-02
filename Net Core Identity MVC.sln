@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net Core Identity MVC", "Net Core Identity MVC\Net Core Identity MVC.csproj", "{81888F91-6FA8-4B09-90DD-0942A65632D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailServer", "EmailServer\EmailServer.csproj", "{75D07AFF-31B8-4B5E-93ED-CFF609FFB253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81888F91-6FA8-4B09-90DD-0942A65632D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81888F91-6FA8-4B09-90DD-0942A65632D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81888F91-6FA8-4B09-90DD-0942A65632D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81888F91-6FA8-4B09-90DD-0942A65632D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D07AFF-31B8-4B5E-93ED-CFF609FFB253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D07AFF-31B8-4B5E-93ED-CFF609FFB253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D07AFF-31B8-4B5E-93ED-CFF609FFB253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D07AFF-31B8-4B5E-93ED-CFF609FFB253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4378FBD-A30D-44FA-89D1-4650BE3D2267}
+	EndGlobalSection
+EndGlobal

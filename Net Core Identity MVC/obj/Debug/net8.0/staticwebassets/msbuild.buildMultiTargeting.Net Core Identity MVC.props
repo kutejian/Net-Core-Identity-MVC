@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Net Core Identity MVC.props" />
+</Project>

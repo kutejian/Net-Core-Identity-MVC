@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\controllers\\googlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\controllers\\googlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\views\\google\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\views\\google\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\views\\github\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\views\\github\\userdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|c:\\users\\administrator\\desktop\\net core identity mvc\\net core identity mvc\\migrations\\20240520154926_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81888F91-6FA8-4B09-90DD-0942A65632D1}|Net Core Identity MVC\\Net Core Identity MVC.csproj|solutionrelative:net core identity mvc\\migrations\\20240520154926_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\appsettings.json",
+              "RelativeToolTip": "Net Core Identity MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-02T13:12:45.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Net Core Identity MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T13:12:00.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoogleController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\GoogleController.cs",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Controllers\\GoogleController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\GoogleController.cs",
+              "RelativeToolTip": "Net Core Identity MVC\\Controllers\\GoogleController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwDUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T13:07:51.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GithubController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\GithubController.cs",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Controllers\\GithubController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\GithubController.cs",
+              "RelativeToolTip": "Net Core Identity MVC\\Controllers\\GithubController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwBwAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:39:47.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Net Core Identity MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T17:54:11.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Github\\UserData.cshtml",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Views\\Github\\UserData.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Github\\UserData.cshtml",
+              "RelativeToolTip": "Net Core Identity MVC\\Views\\Github\\UserData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T13:05:53.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Google\\UserData.cshtml",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Views\\Google\\UserData.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Google\\UserData.cshtml",
+              "RelativeToolTip": "Net Core Identity MVC\\Views\\Google\\UserData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T13:05:50.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Net Core Identity MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAGYAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T14:38:36.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Net Core Identity MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T17:54:13.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240520154926_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Migrations\\20240520154926_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Net Core Identity MVC\\Migrations\\20240520154926_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Net Core Identity MVC\\Net Core Identity MVC\\Migrations\\20240520154926_InitialCreate.cs",
+              "RelativeToolTip": "Net Core Identity MVC\\Migrations\\20240520154926_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:08:20.607Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
