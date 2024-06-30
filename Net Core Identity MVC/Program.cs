@@ -1,6 +1,7 @@
 using EmailServer.Model;
 using EmailServer.Server;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,7 +14,7 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddRazorPages();
 // 数据库连接字符串，然后将数据库上下文ApplicationDbContext注册到依赖注入容器中，
 // 并配置其连接到指定的SqlServer数据库。另外，还添加了一个用于开发人员异常页面的过滤器。
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -30,7 +31,6 @@ builder.Services.AddIdentity<User, IdentityRole>()
     // 添加默认令牌提供程序
     .AddDefaultTokenProviders();
 
-builder.Services.AddRazorPages();
 builder.Services.AddSession(options =>
 {
     options.Cookie.SameSite = SameSiteMode.None;
@@ -40,6 +40,7 @@ builder.Services.AddSession(options =>
 // 添加GitHub OAuth2认证
 builder.Services.Configure<GithubCredential>(builder.Configuration.GetSection("Credentials:Github"));
 builder.Services.Configure<GoogleCredential>(builder.Configuration.GetSection("Credentials:Google"));
+
 // 添加AutoMapper
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
@@ -99,7 +100,6 @@ builder.Services.Configure<DataProtectionTokenProviderOptions>(
     options =>options.TokenLifespan = TimeSpan.FromHours(2));
 
 builder.Services.AddScoped<IEmailSender, EmailSender>();
-
 
 
 var app = builder.Build();

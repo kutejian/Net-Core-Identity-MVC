@@ -149,3 +149,4 @@ C:\Users\Administrator\Desktop\Net Core Identity MVC\Net Core Identity MVC\bin\D
 C:\Users\Administrator\Desktop\Net Core Identity MVC\Net Core Identity MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Administrator\Desktop\Net Core Identity MVC\Net Core Identity MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Administrator\Desktop\Net Core Identity MVC\Net Core Identity MVC\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Net Core Identity MVC\Net Core Identity MVC\obj\Debug\net8.0\Net Core Identity MVC.sourcelink.json

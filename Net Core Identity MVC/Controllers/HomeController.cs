@@ -31,8 +31,7 @@ namespace Net_Core_Identity_MVC.Controllers
         [Authorize(Roles = "User")]
         public IActionResult Employee()
         {
-           var employee =  _context.Employees.ToListAsync().Result;
-            return View(employee);
+            return View();
         }
 
 

@@ -10,3 +10,4 @@ C:\Users\Administrator\Desktop\Net Core Identity MVC\EmailServer\obj\Debug\net8.
 C:\Users\Administrator\Desktop\Net Core Identity MVC\EmailServer\obj\Debug\net8.0\refint\EmailServer.dll
 C:\Users\Administrator\Desktop\Net Core Identity MVC\EmailServer\obj\Debug\net8.0\EmailServer.pdb
 C:\Users\Administrator\Desktop\Net Core Identity MVC\EmailServer\obj\Debug\net8.0\ref\EmailServer.dll
+C:\Users\Administrator\Desktop\Net Core Identity MVC\EmailServer\obj\Debug\net8.0\EmailServer.sourcelink.json

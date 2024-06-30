@@ -2,6 +2,7 @@
 using EmailServer.Model;
 using EmailServer.Server;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -40,6 +41,9 @@ namespace Net_Core_Identity_MVC.Controllers
             {
                 // 将model映射为User对象
                 var user = _mapper.Map<User>(model);
+                user.AvatarUrl = "aa";
+                user.UserPath = "bb";
+                user.RegistrationTimestamp=DateTime.Now;
                 // 创建用户并设置密码，同步等待结果
                 var result = _userManager.CreateAsync(user, model.Password).Result;
                 if (result.Succeeded)
@@ -104,6 +108,8 @@ namespace Net_Core_Identity_MVC.Controllers
                 if (user != null && _userManager.CheckPasswordAsync(user, model.Password).Result 
                     && _userManager.IsEmailConfirmedAsync(user).Result )
                 {
+                    //var result = _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: false).Result;
+
                     var identity = new ClaimsIdentity(IdentityConstants.ApplicationScheme);
                     identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, user.Id));
                     identity.AddClaim(new Claim(ClaimTypes.Name, user.UserName));
@@ -116,7 +122,7 @@ namespace Net_Core_Identity_MVC.Controllers
                         identity.AddClaim(new Claim(ClaimTypes.Role, role));
                     }
 
-                    HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, new ClaimsPrincipal(identity)).Wait();
+                    HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, new ClaimsPrincipal(identity));
                     return RedirectToAction("Employee", "Home");
                 }
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
@@ -132,6 +138,8 @@ namespace Net_Core_Identity_MVC.Controllers
         [HttpGet]
         public IActionResult ForgotPassword()
         {
+            var w = _signInManager.IsSignedIn(User);
+            var isLoggedIn2 =HttpContext.User.Identity.IsAuthenticated;
             return View();
         }
         [HttpPost]
@@ -139,6 +147,7 @@ namespace Net_Core_Identity_MVC.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult ForgotPassword(ForgotPasswordModel model)
         {
+            
             if (ModelState.IsValid)
             {
                 var user = _userManager.FindByEmailAsync(model.Email).Result;

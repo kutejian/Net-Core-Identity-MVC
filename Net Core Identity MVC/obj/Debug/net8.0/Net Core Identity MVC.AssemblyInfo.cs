@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net Core Identity MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c4f5e370ca7737450a728faff115a1d9f0278f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net Core Identity MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net Core Identity MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

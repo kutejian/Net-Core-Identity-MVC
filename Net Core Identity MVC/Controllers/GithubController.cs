@@ -141,7 +141,6 @@ namespace OAuth20.Lab.Controllers
                 }
             }
             GithubLogin(user);
-            return RedirectToAction("Employee", "Home");
             return View(gitHubUser);
         }
         public void GithubLogin(User user)
